@@ -1,0 +1,48 @@
+body{
+    background-image: url("pink.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header{
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+
+h1{
+    color: #00674f;
+    font-style: italic;
+    margin-bottom: 2px;
+}
+img{
+    width: 4%;
+}
+
+.gallery {
+    width: 200px;
+    height: 200px;
+    border: 1px solid rgb(161, 226, 208);
+    padding: 20px;
+    margin: 10px;
+    background-color: #bde3db;
+    border-radius: 15px;
+   text-align: center;
+  }
+
+  #boxes{
+    justify-content:center;
+    display:flex;
+    flex-wrap:wrap;
+  }
+  
+  p{
+    color: #00674f;
+    text-align: center;
+    font-size: medium;
+    font-weight: 700;
+  }
+
+i{
+    color: #980001;
+}
